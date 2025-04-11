@@ -31,11 +31,11 @@ const App = () => {
           <h2 data-aos="fade-up">Proyectos Destacados</h2>
           <div className="project-list">
             <div className="project" data-aos="zoom-in" data-aos-delay="200">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Proyecto 1" />
+              <img src=".\public\DALL·E 2025-04-07 10.37.54 - A modern-style image for a personal portfolio showcasing a project based on an API. The scene features a sleek computer screen with glowing code snipp.webp" alt="Proyecto 1" />
               <div className="project-content">
-                <h3>Portfolio Creativo</h3>
-                <p>Diseño único de un portfolio interactivo con animaciones modernas y diseño responsive.</p>
-                <a href="https://github.com/" className="project-link" target="_blank" rel="noopener noreferrer">
+                <h3>Api de one piece</h3>
+                <p>API REST de One Piece desarrollada con Spring Boot, utilizando JWT para autenticación segura y MongoDB como base de datos NoSQL para gestionar personajes, tripulaciones y eventos del universo One Piece.</p>
+                <a href="https://github.com/JuanJoselopez03/Api_One_Piece" className="project-link" target="_blank" rel="noopener noreferrer">
                   Ver Proyecto <FaArrowRight style={{ marginLeft: '5px' }} />
                 </a>
               </div>
@@ -97,6 +97,10 @@ const App = () => {
             <div className="skill">Git</div>
             <div className="skill">UI/UX Design</div>
             <div className="skill">Responsive Design</div>
+            <div className="skill">Docker</div>
+            <div className="skill">API Rest</div>
+
+
           </div>
         </div>
       </section>
@@ -127,13 +131,13 @@ const App = () => {
         <div className="container">
           <p>Conéctate conmigo:</p>
           <div className="social-links">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/JuanJoselopez03" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub size={24} />
             </a>
             <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <FaLinkedin size={24} />
             </a>
-            <a href="mailto:correo@ejemplo.com" aria-label="Email">
+            <a href="juanjoselopez4509@gmail.com" aria-label="Email">
               <FaEnvelope size={24} />
             </a>
           </div>
